@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32428.217
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM Solution Documentation", "DM Solution Documentation", "{B40807CC-A06B-4EAB-AE83-B448891DB053}"
+	ProjectSection(SolutionItems) = preProject
+		DM Soultion Documentation\GetGoodGPUs Documentation.docx = DM Soultion Documentation\GetGoodGPUs Documentation.docx
+		DM Soultion Documentation\GetGoodGPUs Peer Review Hunter Phase 2.docx = DM Soultion Documentation\GetGoodGPUs Peer Review Hunter Phase 2.docx
+		DM Soultion Documentation\GetGoodGPUs Peer Review Hunter.docx = DM Soultion Documentation\GetGoodGPUs Peer Review Hunter.docx
+		DM Soultion Documentation\GetGoodGPUs Peer Review Xijia.docx = DM Soultion Documentation\GetGoodGPUs Peer Review Xijia.docx
+		DM Soultion Documentation\GetGoodGPUs Solution Star Schema.vsdx = DM Soultion Documentation\GetGoodGPUs Solution Star Schema.vsdx
+		DM Soultion Documentation\GetGoodGPUs Solution Workbook.xlsx = DM Soultion Documentation\GetGoodGPUs Solution Workbook.xlsx
+		DM Soultion Documentation\Peer Review Feedback Hunter Phase 3.docx = DM Soultion Documentation\Peer Review Feedback Hunter Phase 3.docx
+		DM Soultion Documentation\Peer Review Feedback Hunter Phase 4.docx = DM Soultion Documentation\Peer Review Feedback Hunter Phase 4.docx
+		DM Soultion Documentation\Peer Review Feedback Xijia Phase 2.docx = DM Soultion Documentation\Peer Review Feedback Xijia Phase 2.docx
+		DM Soultion Documentation\Peer Review Feedback Xijia Phase 3.docx = DM Soultion Documentation\Peer Review Feedback Xijia Phase 3.docx
+		DM Soultion Documentation\Peer Review Feedback Xijia Phase 4.docx = DM Soultion Documentation\Peer Review Feedback Xijia Phase 4.docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM Build", "DM Build", "{A56FD21F-963A-4523-9FD3-30AF052C4C74}"
+	ProjectSection(SolutionItems) = preProject
+		DM Build\GetGoodGPUsDM Build.sql = DM Build\GetGoodGPUsDM Build.sql
+	EndProjectSection
+EndProject
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "DM ETL", "GetGoodGPU DM ETL\DM ETL.dtproj", "{B3BAC33C-AED8-4905-9A69-EEDC956E68AA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM Multidimensional", "DM Multidimensional", "{F358DB75-9588-43CA-BDEA-677B5127A822}"
+	ProjectSection(SolutionItems) = preProject
+		DM Multidimensional\GetGoodGPU DM Mutlidimensional analysis.xlsx = DM Multidimensional\GetGoodGPU DM Mutlidimensional analysis.xlsx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DM Reports and Dashboards", "DM Reports and Dashboards", "{5B3DF622-890E-4D12-9418-8F283020C583}"
+	ProjectSection(SolutionItems) = preProject
+		DM Reports and Dashboards\GetGoodGPUsDM PowerBI Dashboard.pbix = DM Reports and Dashboards\GetGoodGPUsDM PowerBI Dashboard.pbix
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3BAC33C-AED8-4905-9A69-EEDC956E68AA}.Development|Default.ActiveCfg = Development
+		{B3BAC33C-AED8-4905-9A69-EEDC956E68AA}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C86E21B3-A1BE-43AC-816B-7EECBE45FCA6}
+	EndGlobalSection
+EndGlobal
